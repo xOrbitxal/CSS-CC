@@ -1,40 +1,80 @@
+
+
 h1{
-    margin: auto;
+    margin: 4%;
     color:rgb(0, 0, 0)
+    
+
 }
 
 body{
     background-color: rgb(255, 255, 255);
-    margin: auto;
+    margin: 4%;
     
 }
 
 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:x-large;
-    color: rgb(8, 8, 10);
-    width: 600px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    text-decoration-line: underline;
+    
    
 }
 
 a{
-    margin: auto;
+    margin: 4%;
     font-size:small
 }
 
 
-.containe r{
+.container{
     width: 100px ;
-    margin: auto;
+    margin: 980%;
 }
 
+
+/*How to add box with colour inside and around*/
 .box-1{
-   background-color: rgb(0, 0, 0);
-   margin: auto;
+    font-style: oblique;
+    font-weight: 800;
+   background-color: rgb(36, 214, 131);
+   margin: 4%;
+   border:11px rgb(20, 23, 220) solid
+   
 }
 
 div{
-    color: rgb(0, 242, 255);
-    margin: auto;
+    color: rgb(0, 0, 0);
+    margin: 4%;
     size: 80%;
+}
+
+.box-1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.box-2 h2 p2{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    border-top: 2px rgb(172, 43, 43) dotted; 
+    border-bottom: 2px grey dotted; 
+    border-right: 2px grey dotted; 
+    border-left: 2px grey dotted; 
+    letter-spacing: 0.4mm;
+}
+ 
+h2{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    word-spacing: 1mm;
+}
+
+
+.box-1 h1{
+
 }
