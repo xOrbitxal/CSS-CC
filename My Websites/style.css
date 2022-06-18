@@ -1,0 +1,123 @@
+.clr{
+    clear:both;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1 {
+    margin: 4%;
+    color: rgb(0, 0, 0)
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 4%;
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    text-decoration-line: underline;
+
+}
+
+a {
+    margin: 4%;
+    font-size: small
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a:visited {
+    color: rgb(84, 226, 120);
+}
+
+a:hover {
+    color: gold;
+}
+
+
+.container {
+    width: 100px;
+    margin: 980%;
+}
+
+
+/*How to add box with colour inside and around*/
+.box-1 {
+    font-style: oblique;
+    font-weight: 800;
+    background-color: rgb(2, 2, 2);
+    margin: 4%;
+    border: 6px rgb(0, 217, 255) solid;
+    color: white;
+
+}
+
+div {
+    color: rgb(0, 0, 0);
+    margin: 4%;
+    size: 80%;
+}
+
+.box-1 h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.box-2 {
+    background-color: rgb(213, 255, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50%;
+    border: 6px rgb(0, 217, 255) solid;
+    letter-spacing: 0.4mm;
+    margin: 4%;
+    text-align: center;
+    width: max-content;
+}
+
+.box-3 {
+    background-color: rgb(213, 255, 1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50%;
+    border: 6px rgb(0, 217, 255) solid;
+    letter-spacing: 0.4mm;
+    margin: 4%;
+    text-align: center;
+    width: max-content;
+}
+
+.categories {
+    border: 5px rgb(222, 222, 231);
+    border-radius: 10px;
+    border-left: 5px rgb(222, 222, 231) dotted;
+    border-bottom: 5px rgb(222, 222, 231) dotted;
+    border-top: 5px rgb(222, 222, 231) dotted;
+    border-right: 5px rgb(222, 222, 231) dotted;
+}
+
+.categories h3 {
+    text-align: center;
+}
+
+.categories li {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted;
+}
+
+.my-form label{
+    display: block;
+}
